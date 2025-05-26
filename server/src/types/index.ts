@@ -23,7 +23,7 @@ export interface GameState {
   winner: string | null; // 승자
 }
 
-export type Role = "mafia" | "drawer" | "guesser";
+export type Role = "artist" | "spy" | "detective";
 
 // Socket 이벤트 페이로드
 export interface CreateRoomPayload {

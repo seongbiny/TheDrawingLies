@@ -5,7 +5,7 @@ interface User {
   id: string;
   username: string;
   socketId: string;
-  role: "mafia" | "drawer" | "guesser" | null;
+  role: "artist" | "spy" | "detective" | null;
   joinedAt: string; // 클라이언트에서는 string으로 받음
   isHost: boolean;
 }
